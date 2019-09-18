@@ -5,7 +5,8 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('weatherapp---live---part-1:server');
+var debug = require('debug')
+// ('weatherapp---live---part-1:server');
 var http = require('http');
 
 /**
