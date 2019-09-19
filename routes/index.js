@@ -7,6 +7,8 @@ var userModel = require('../models/user')
 
 /* GET new home login page. */
 router.get('/', function(req, res, next) {
+  console.log('==> la page login est ok ');
+
   req.session.user = null;
   res.render('login')
 });
