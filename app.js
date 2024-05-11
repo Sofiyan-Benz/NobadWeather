@@ -1,4 +1,4 @@
-var mongoose = require('./models/bdd');
+var connectDB = require('./models/bdd');
 
 var createError = require('http-errors');
 var express = require('express');
@@ -13,6 +13,9 @@ var app = express();
 
 var session = require('express-session');
 
+
+//DB Connect
+connectDB()
 app.use(
  session({
   secret: 'a4f8071f-c873-4447-8ee2',

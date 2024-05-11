@@ -1,0 +1,3 @@
+{
+    "mongoURI" : "mongodb+srv://dev:soflabs2024@cluster0.csqunwz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+}
